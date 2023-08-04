@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Aug 04 14:44:27 IST 2023","Fri Aug 04 14:44:28 IST 2023","916","","My Third Cypress Test","","","","Assertions",""
+"passed","Fri Aug 04 14:43:49 IST 2023","Fri Aug 04 14:43:50 IST 2023","821","","My First Cypress Test","","","","Visits the Spring Boot Demo application Page and check the menu items",""
+"passed","Fri Aug 04 14:45:14 IST 2023","Fri Aug 04 14:45:18 IST 2023","4331","","My Fifth Cypress Test","","","","Search for the added owner in the owners list",""
+"failed","Fri Aug 04 14:44:08 IST 2023","Fri Aug 04 14:44:13 IST 2023","4714","","My Second Cypress Test","","","","Verify the title-negative",""
+"passed","Fri Aug 04 14:44:07 IST 2023","Fri Aug 04 14:44:08 IST 2023","740","","My Second Cypress Test","","","","Verify the title-positive",""
+"passed","Fri Aug 04 14:44:39 IST 2023","Fri Aug 04 14:44:54 IST 2023","14974","","My Fourth Cypress Test","","","","Add an owner and pet in the owners list",""
