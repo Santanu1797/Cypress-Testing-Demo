@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "install": "npx cypress install",
+    "start server": "npm start",
     "test": "npx cypress run --env allure=true",
     "start-server-and-test": "npx start-server-and-test start-server http://localhost:8080 test",
     "report": "npx allure generate allure-results --clean -o allure-report"
