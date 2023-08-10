@@ -6,7 +6,7 @@
   "scripts": {
     "install": "npx cypress install",
     "test": "npx cypress run --env allure=true",
-    "start-server-and-test": "start-server-and-test start-server http://localhost:8080 test",
+    "start-server-and-test": "npx start-server-and-test start-server http://localhost:8080 test",
     "report": "npx allure generate allure-results --clean -o allure-report"
   },
   "author": "Santanu",
