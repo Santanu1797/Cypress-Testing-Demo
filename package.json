@@ -4,18 +4,15 @@
   "description": "Automation Testing",
   "main": "index.js",
   "scripts": {
-    "install": "npx cypress install",
     "test": "npx cypress run --env allure=true",
     "report": "npx allure generate allure-results --clean -o allure-report"
   },
   "author": "Santanu",
   "license": "ISC",
   "devDependencies": {
+    "cypress": "^12.11.0",
     "@shelex/cypress-allure-plugin": "^2.40.0",
-    "allure-commandline": "^2.23.1",
-    "cypress": "^12.11.0"
-  },
-  "dependencies": {
-    "debug": "^4.3.4"
+    "allure-commandline": "^2.23.1"
+    
   }
 }
